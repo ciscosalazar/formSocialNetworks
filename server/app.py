@@ -11,9 +11,9 @@ db = SQLAlchemy(app)
 CORS(app, resources={r'/*': {'origins': '*'}})
 
 # sanity check route
-@app.route('/ping', methods=['GET'])
-def ping_pong():
-    return jsonify('pong!')
+@app.route('/', methods=['GET'])
+def hello():
+    return jsonify('respondiendo desde el servidor de flask')
 
 # @app.route('/')
 # def home():
