@@ -1,31 +1,29 @@
 <template>
     <div>
         <div>
-            <img alt="Vue logo" src="../assets/logo.png">
-        </div>
-        <div>
             <p>{{ msg }}</p>
         </div>
         <div>
-            <form>
-                <div>
-                    <label>Nombre </label>
-                    <input type="text">
+            <form id="">
+                <div class="row">
+                    <label class="col-form-label col-form-label-lg">Nombre </label>
+                    <input type="text" class="form-control">
                 </div>
                 <div>
-                    <label>Email </label>
-                    <input type="email">
+                    <label class="col-form-label col-form-label-lg">Email </label>
+                    <input type="email" class="form-control">
                 </div>
                 <div>
-                    <label>Edad </label>
+                    <label class="col-form-label col-form-label-lg">Edad </label>
                     <select name="" id="">
                         <option value="">18-25 years</option>
                         <option value="">26-33 years</option>
                         <option value="">34-40 years</option>
+                        <option value="">40+ years</option>
                     </select>
                 </div>
                 <div>
-                    <label for="">Tiempo promedio al dia en Tiktok </label>
+                    <label class="col-form-label col-form-label-lg">Tiempo promedio al dia en Tiktok </label>
                     <select name="" id="">
                         <option value="">0</option>
                         <option value="">1</option>
@@ -41,7 +39,7 @@
                     </select>
                 </div>
                 <div>
-                    <label for="">Tiempo promedio al dia en WhatsApp </label>
+                    <label class="col-form-label col-form-label-lg">Tiempo promedio al dia en WhatsApp </label>
                     <select name="" id="">
                         <option value="">0</option>
                         <option value="">1</option>
@@ -57,7 +55,7 @@
                     </select>
                 </div>
                 <div>
-                    <label for="">Tiempo promedio al dia en Twitter </label>
+                    <label class="col-form-label col-form-label-lg">Tiempo promedio al dia en Twitter </label>
                     <select name="" id="">
                         <option value="">0</option>
                         <option value="">1</option>
@@ -73,7 +71,7 @@
                     </select>
                 </div>
                 <div>
-                    <label for="">Tiempo promedio al dia en Instagram </label>
+                    <label class="col-form-label col-form-label-lg">Tiempo promedio al dia en Instagram </label>
                     <select name="" id="">
                         <option value="">0</option>
                         <option value="">1</option>
@@ -89,7 +87,7 @@
                     </select>
                 </div>
                 <div>
-                    <label for="">Tiempo promedio al dia en Facebook </label>
+                    <label class="col-form-label col-form-label-lg">Tiempo promedio al dia en Facebook </label>
                     <select name="" id="">
                         <option value="">0</option>
                         <option value="">1</option>
@@ -103,12 +101,13 @@
                         <option value="">9</option>
                         <option value="">10</option>
                     </select>
-                <div>
-                    <button>Cargar</button>
+                <div class="col-12 form-group text-center">
+                    <button class="btn vue-bg btn-lg col-4">Cargar</button>
                 </div>
                 </div>
             </form>
         </div>
+        
 
   </div>
 </template>
@@ -141,4 +140,10 @@ export default {
   },
 };
 </script>
+
+<style>
+.vue-bg{
+    background-color: rgba(111, 207, 224, 0.705);
+}
+</style>
 
