@@ -1,4 +1,4 @@
-# Proyec: Form about use Social Networks with Vuejs + Flask
+# Proyect: Form about use Social Networks with Vuejs + Flask
 
 
 ## How to use this project?
