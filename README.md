@@ -20,6 +20,7 @@
 1. Run the client-side Vue app in a different terminal linux:
 
     ```sh
+    $ cd frontend
     $ cd client
     $ npm install
     $ npm run serve
