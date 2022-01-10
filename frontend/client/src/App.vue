@@ -6,7 +6,7 @@
                       <img alt="Vue logo" src="./assets/logo.png" width="100">
                   </div>
                   <div class="col-md-9 h-100 d-flex justify-content-center align-items-center">
-                    <div class="col-md-8 rounded px-5 py-4 shadow bg-white">
+                    <div class="col-md-8 rounded px-5 py-5 shadow bg-white">
                       <Ping />
                     </div>
                   </div>
